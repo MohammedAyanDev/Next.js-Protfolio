@@ -1,3 +1,4 @@
+import profileImage from "./image.jpeg";
 const profile = {
   name: "Mohammed Ayan",
   shortName: "Ayan",
@@ -20,7 +21,7 @@ const skills = [
     items: ["HTML", "CSS", "Next.js", "Tailwind CSS"],
   },
   { category: "AI & Data", items: ["Python for Data", "NumPy", "Pandas"] },
-  { category: "Tools", items: ["VS Code", "Git", "GitHub"] },
+  { category: "Tools", items: ["VS Code", "Git", "GitHub", "Figma", "WordPress"] },
 ];
 
 const projects = [
@@ -243,13 +244,13 @@ export default function Home() {
             </a>
           </div>
 
-          <div className="mt-10 flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#8A7D70]">
+          {/* <div className="mt-10 flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#8A7D70]">
             <span>Curious mind</span>
             <span>·</span>
             <span>Continuous learner</span>
             <span>·</span>
             <span>Problem solver</span>
-          </div>
+          </div> */}
         </div>
 
         <div className="mx-auto w-full max-w-sm">
@@ -257,8 +258,8 @@ export default function Home() {
             <div className="flex aspect-[4/5] items-center justify-center overflow-hidden rounded-[1.5rem] bg-gradient-to-br from-[#E8DED1] via-[#F0E4D8] to-[#D8B9A5]">
               {profile.profileImage ? (
                 <img
-                  src={profile.profileImage}
-                  alt={`${profile.name} profile`}
+                  src={profileImage.src}
+                  alt="Coder workspace image"
                   className="h-full w-full object-cover"
                 />
               ) : (
