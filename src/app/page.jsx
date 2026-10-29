@@ -37,25 +37,25 @@ const projects = [
   },
   {
     number: "02",
-    title: "Data Insights",
+    title: "Amazon Prime Video Clone",
     description:
-      "A data analysis project that explores a dataset and presents useful findings.",
+      "I make a Amazon Prime Video clone usinG HTML & CSS.",
     tags: ["HTML", "CSS"],
     image: "",
     github: "https://github.com/YOUR-USERNAME/YOUR-REPO",
     demo: "",
-    type: "DATA SCIENCE",
+    type: "Frontend",
   },
   {
     number: "03",
-    title: "Your Next Project",
+    title: "Spa Website",
     description:
-      "Describe the problem your project solves and the features you built.",
-    tags: ["HTML", "TAILWINDCSS", "N"],
+      "I make a forntend of a Spa website using only HTML & CSS.",
+    tags: ["HTML", "CSS",],
     image: "",
     github: "https://github.com/YOUR-USERNAME/YOUR-REPO",
     demo: "",
-    type: "EXPERIMENTAL",
+    type: "Frontend",
   },
 ];
 
@@ -416,7 +416,7 @@ export default function Home() {
               GitHub ↗
             </a>
             <a
-              href={profile.linkedin}
+              href="https://www.linkedin.com/in/mohammed-ayan-sayed/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-[#E9A68D]"
