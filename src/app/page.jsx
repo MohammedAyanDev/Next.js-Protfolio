@@ -67,7 +67,7 @@ function SectionHeading({ eyebrow, title, description }) {
       </p>
       <h2 className="text-3xl font-semibold tracking-tight text-[#202124] sm:text-4xl">
         {title}
-        <span className="text-[#D97757]">.</span>
+        {/* <span className="text-[#D97757]">.</span> */}
       </h2>
       <p className="mt-4 leading-7 text-[#6B625A]">{description}</p>
     </div>
@@ -137,7 +137,7 @@ function ProjectCard({ project }) {
               rel="noopener noreferrer"
               className="text-sm font-semibold text-[#202124] transition-colors hover:text-[#B85F43]"
             >
-              GitHub ↗
+              GitHub 
             </a>
           )}
 
@@ -148,7 +148,7 @@ function ProjectCard({ project }) {
               rel="noopener noreferrer"
               className="text-sm font-semibold text-[#B85F43] transition-colors hover:text-[#8F432D]"
             >
-              Live Demo ↗
+              Live Demo 
             </a>
           )}
         </div>
@@ -186,7 +186,7 @@ export default function Home() {
             href="#contact"
             className="rounded-lg bg-[#202124] px-4 py-2.5 text-sm font-medium text-white transition-colors hover:bg-[#B85F43]"
           >
-            Let's Talk ↗
+            Let's Talk 
           </a>
         </nav>
 
@@ -203,21 +203,21 @@ export default function Home() {
         className="mx-auto grid max-w-6xl items-center gap-12 px-5 py-20 sm:px-8 sm:py-28 md:grid-cols-[1.3fr_0.7fr]"
       >
         <div>
-          <div className="mb-7 inline-flex items-center gap-2 rounded-full border border-[#DCCFC1] bg-white/50 px-4 py-2 text-xs font-medium text-[#795D4B]">
+          {/* <div className="mb-7 inline-flex items-center gap-2 rounded-full border border-[#DCCFC1] bg-white/50 px-4 py-2 text-xs font-medium text-[#795D4B]">
             <span className="h-2 w-2 rounded-full bg-[#D97757]" />
             {profile.role} · {profile.location}
-          </div>
+          </div> */}
 
-          <p className="mb-4 text-sm font-medium tracking-wide text-[#B85F43]">
+          {/* <p className="mb-4 text-sm font-medium tracking-wide text-[#B85F43]">
             HELLO, WORLD. I'M
-          </p>
+          </p> */}
 
           <h1 className="max-w-3xl font-serif text-5xl leading-[1.08] tracking-tight sm:text-6xl lg:text-7xl">
             {profile.name}
-            <span className="text-[#D97757]">.</span>
+            {/* <span className="text-[#D97757]">.</span> */}
             <br />
             <span className="font-normal italic text-[#8A7D70]">
-              Building with purpose.
+              Building with purpose
             </span>
           </h1>
 
@@ -230,7 +230,7 @@ export default function Home() {
               href="#projects"
               className="rounded-lg bg-[#202124] px-6 py-3.5 text-sm font-semibold text-white transition-all hover:-translate-y-0.5 hover:bg-[#B85F43]"
             >
-              Explore My Work ↗
+              Explore My Work 
             </a>
 
             <a
@@ -268,12 +268,12 @@ export default function Home() {
               )}
             </div>
 
-            <div className="absolute -bottom-4 -left-5 max-w-[230px] rounded-xl border border-white/70 bg-[#FCFAF7]/85 p-4 shadow-lg backdrop-blur-xl">
+            {/* <div className="absolute -bottom-4 -left-5 max-w-[230px] rounded-xl border border-white/70 bg-[#FCFAF7]/85 p-4 shadow-lg backdrop-blur-xl">
               <p className="text-xs text-[#8A7D70]">CURRENT FOCUS</p>
               <p className="mt-1 font-semibold text-[#202124]">
                 Learning. Building. Growing.
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -377,7 +377,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 border-b border-[#D97757] pb-1 text-sm font-semibold text-[#79513F] transition-colors hover:text-[#B85F43]"
           >
-            Explore more on GitHub ↗
+            Explore more on GitHub 
           </a>
         </div>
       </section>
@@ -391,7 +391,7 @@ export default function Home() {
           <div className="grid gap-8 md:grid-cols-[1fr_auto] md:items-end">
             <div>
               <h2 className="max-w-2xl font-serif text-4xl leading-tight sm:text-5xl">
-                Let's build something meaningful.
+                Let's build something meaningful
               </h2>
               <p className="mt-5 max-w-xl leading-7 text-[#C5BDB5]">
                 I'm always interested in learning, exchanging ideas, and exploring useful projects.
@@ -402,7 +402,7 @@ export default function Home() {
               href={`mailto:${profile.email}`}
               className="inline-flex w-fit items-center gap-3 rounded-lg bg-[#D97757] px-6 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-[#B85F43]"
             >
-              Get in touch ↗
+              Get in touch 
             </a>
           </div>
 
@@ -413,7 +413,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="hover:text-[#E9A68D]"
             >
-              GitHub ↗
+              GitHub 
             </a>
             <a
               href="https://www.linkedin.com/in/mohammed-ayan-sayed-5bb775425?utm_source=share_via&utm_content=profile&utm_medium=member_android"
@@ -421,13 +421,13 @@ export default function Home() {
               rel="noopener noreferrer"
               className="hover:text-[#E9A68D]"
             >
-              LinkedIn ↗
+              LinkedIn 
             </a>
             <a
               href={`mailto:${profile.email}`}
               className="hover:text-[#E9A68D]"
             >
-              Email ↗
+              Email 
             </a>
           </div>
         </div>
