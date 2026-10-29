@@ -416,7 +416,7 @@ export default function Home() {
               GitHub ↗
             </a>
             <a
-              href="https://www.linkedin.com/in/mohammed-ayan-sayed/"
+              href="https://www.linkedin.com/in/mohammed-ayan-sayed-5bb775425?utm_source=share_via&utm_content=profile&utm_medium=member_android"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-[#E9A68D]"
