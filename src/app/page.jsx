@@ -235,7 +235,7 @@ export default function Home() {
             </a>
 
             <a
-              href={profile.github}
+              href="https://github.com/MohammedAyanDev"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-lg border border-[#D6C9BB] px-6 py-3.5 text-sm font-semibold text-[#202124] transition-colors hover:border-[#D97757] hover:text-[#B85F43]"
@@ -371,7 +371,7 @@ export default function Home() {
           ))}
         </div>
 
-        <div className="mt-10">
+        {/* <div className="mt-10">
           <a
             href={profile.github}
             target="_blank"
@@ -380,7 +380,7 @@ export default function Home() {
           >
             Explore more on GitHub 
           </a>
-        </div>
+        </div> */}
       </section>
 
       <section id="contact" className="px-5 pb-20 sm:px-8 sm:pb-24">
@@ -409,7 +409,7 @@ export default function Home() {
 
           <div className="mt-12 flex flex-wrap gap-x-6 gap-y-3 border-t border-white/15 pt-6 text-sm text-[#D1C7BE]">
             <a
-              href={profile.github}
+              href="https://github.com/MohammedAyanDev"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-[#E9A68D]"
