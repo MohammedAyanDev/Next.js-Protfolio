@@ -400,7 +400,7 @@ export default function Home() {
             </div>
 
             <a
-              href={`mailto:${profile.email}`}
+              href={`mailto:developedwithayan@gmail.com`}
               className="inline-flex w-fit items-center gap-3 rounded-lg bg-[#D97757] px-6 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-[#B85F43]"
             >
               Get in touch 
@@ -424,12 +424,12 @@ export default function Home() {
             >
               LinkedIn 
             </a>
-            <a
+            {/* <a
               href={`mailto:${profile.email}`}
               className="hover:text-[#E9A68D]"
             >
               Email 
-            </a>
+            </a> */}
           </div>
         </div>
       </section>
